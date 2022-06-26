@@ -1,0 +1,53 @@
+* Install PHP
+    - $ brew install php
+
+
+* Setup XAMPP: https://www.apachefriends.org/
+- Download XAMPP for OSX
+- Install XAMPP
+    - General tab: Start
+    - Services tab: All Start
+    - Network tab: [ localhost:8080 -> 80 (Over SSH) ] Enable
+    - Volumes tab: Mount
+    - Volumes tab: Explore
+        - Select folder 'htdocs'
+        - Type in browser 'localhost:8080'
+        - Make folder 'php-crash' in 'htdocs'
+        - Type in browser 'localhost:8080/php-crash'
+- Drag and drop 'php-crash' in opened VS Code editor
+
+
+* Extensions to need for live reload
+- VS Code extensions
+    - PHP Server
+    - PHP Intelephense
+    - Live Server
+- Chrome web extensions
+    - Live Server
+        - Actual Sever Address: 'http://localhost:8080/php-crash/'
+        - Live Server Address: 'http://localhost:5500/'
+
+
+* Run live reload
+- Start VS Code Live Server(5500)
+    - Close browser window
+- Start PHP Server(3000)
+    - Close browser window
+    - If need to setup in "setting.json" on VS Code
+        - "php.validate.executablePath": "/usr/local/bin/php"
+        - Identify 'executablePath': $ which php
+- Type 'http://localhost:8080/php-crash' in browser
+
+
+* As a result, "live reloading" in browser
+        PHP Server    ->     (Chrome Web Live Server)  ->  VS Code Live Server
+'localhost:8080/php-crash/'                                 'localhost:5500/'
+
+
+* After correcting something, if need to apply it
+    -  XAMPP Setup: Restart Apache
+        ex) 'display_errors: On' from 'etc/php.ini'
+
+
+* Chrome web extensions
+    - PHPView

@@ -1,0 +1,23 @@
+01 PHP setup
+02 VS Code setup for w/Live reload
+03 Variables, Data types
+04 Arrays, Array methods
+05 Conditionals
+
+06 Loops, Iteration
+07 Functions
+08 Superglobals
+09 Working with forms
+10 $_GET, $_POST
+
+11 Sanitization, Validation
+12 Cookies
+13 Sessions
+14 File handling
+15 File uploading
+
+16 Errors, Exceptions
+17 OOP, Classes
+18 include, require
+19 PHPMyAdmin
+20 MySQLi, Database interaction

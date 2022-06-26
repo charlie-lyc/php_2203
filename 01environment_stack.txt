@@ -1,0 +1,24 @@
+* LAMP
+    - Linux: operating system
+    - Apache(NginX): HTTP server
+    - MySQL: relational data base management system
+    - PHP: programming language
+
+* MAMP
+    - MacOS
+    - Apache(NginX)
+    - MySQL
+    - PHP
+
+* WAMP
+    - Windows
+    - Apache(NginX)
+    - MySQL
+    - PHP
+
+* XAMPP stack
+    - X(Cross) platform
+    - Apache(NginX)
+    - MariaDB
+    - PHP
+    - Perl
